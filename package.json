@@ -1,5 +1,5 @@
 {
-  "name": "csvPro",
+  "name": "csvpro",
   "version": "1.0.0",
   "description": "a npm package that several functionalities related to csv",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/deepak77899/csvPro.git"
+    "url": "https://github.com/deepak77899/csvpro.git"
   },
   "keywords": [
     "npm",
@@ -32,7 +32,7 @@
   "author": "Deepak Sharma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deepak77899/csvPro/issues"
+    "url": "https://github.com/deepak77899/csvpro/issues"
   },
-  "homepage": "https://github.com/deepak77899/csvPro/tree/master#readme"
+  "homepage": "https://github.com/deepak77899/csvpro/tree/master#readme"
 }

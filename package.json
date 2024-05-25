@@ -25,7 +25,9 @@
     "generate",
     "generation",
     "backend",
-    "frontend"
+    "frontend",
+    "javascript",
+    "nodejs"
   ],
   "author": "Deepak Sharma",
   "license": "ISC",

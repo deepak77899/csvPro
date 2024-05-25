@@ -1,5 +1,5 @@
 {
-  "name": "csvtest",
+  "name": "csvPro",
   "version": "1.0.0",
   "description": "a npm package that several functionalities related to csv",
   "main": "index.js",

@@ -151,3 +151,43 @@ export function groupBy(data, key) {
         return result;
     }, {});
 }
+// Function to count the occurrences of each unique value in a column
+export function countValues(data, column) {
+    const counts = {};
+    data.forEach(row => {
+        const value = row[column];
+        if (counts[value] === undefined) {
+            counts[value] = 1;
+        } else {
+            counts[value]++;
+        }
+    });
+    return counts;
+}
+
+// Function to sum the values in a column
+export function sumValues(data, column) {
+    return data.reduce((sum, row) => sum + (parseFloat(row[column]) || 0), 0);
+}
+
+// Function to calculate the average value in a column
+export function averageValues(data, column) {
+    const sum = sumValues(data, column);
+    return sum / data.length;
+}
+
+// Function to find the minimum value in a column
+export function minValue(data, column) {
+    return data.reduce((min, row) => {
+        const value = parseFloat(row[column]);
+        return value < min ? value : min;
+    }, Infinity);
+}
+
+// Function to find the maximum value in a column
+export function maxValue(data, column) {
+    return data.reduce((max, row) => {
+        const value = parseFloat(row[column]);
+        return value > max ? value : max;
+    }, -Infinity);
+}

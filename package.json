@@ -1,6 +1,6 @@
 {
   "name": "csvpro",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a npm package that several functionalities related to csv",
   "main": "index.js",
   "type": "module",

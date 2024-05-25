@@ -20,7 +20,7 @@ $ npm install csvPro
 ```
 
 ```js
-import { csvToJson, checkDuplicateRows, filterRows, sortRows, groupBy } from 'csvPro';
+import { csvToJson, checkDuplicateRows, filterRows, sortRows, groupBy ,countValues, sumValues, averageValues, minValue, maxValue} from 'csvPro';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -57,4 +57,20 @@ console.log('Sorted Data:', sortedData);
 
 const groupedData = groupBy(jsonData, 'class');
 console.log('Grouped Data:', groupedData);
+
+// Aggregation Examples
+const ageCounts = countValues(jsonData, 'age');
+console.log('Age Counts:', ageCounts);
+
+const totalScore = sumValues(jsonData, 'score');
+console.log('Total Score:', totalScore);
+
+const averageScore = averageValues(jsonData, 'score');
+console.log('Average Score:', averageScore);
+
+const minScore = minValue(jsonData, 'score');
+console.log('Min Score:', minScore);
+
+const maxScore = maxValue(jsonData, 'score');
+console.log('Max Score:', maxScore);
 ```

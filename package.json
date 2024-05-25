@@ -1,12 +1,36 @@
 {
   "name": "csvtest",
   "version": "1.0.0",
-  "description": "",
+  "description": "a npm package that several functionalities related to csv",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepak77899/csvPro.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "csv",
+    "tsv",
+    "parser",
+    "parse",
+    "stringifier",
+    "stringify",
+    "transform",
+    "stream",
+    "generate",
+    "generation",
+    "backend",
+    "frontend"
+  ],
+  "author": "Deepak Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak77899/csvPro/issues"
+  },
+  "homepage": "https://github.com/deepak77899/csvPro/tree/master#readme"
 }

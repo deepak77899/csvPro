@@ -16,7 +16,7 @@
 ***Row Grouping :*** Group rows in a dataset by a specified key (column), returning an object with grouped rows.
 
 ```sh
-$ npm install csvPro 
+$ npm install csvpro 
 ```
 
 ```js

@@ -2,7 +2,7 @@
 ***CSV to JSON Conversion :***  Convert CSV files to JSON format, with support for:
 - Custom delimiters.
 - Preserving data types (integers, floats, booleans, dates, nulls).
-- andling missing values.
+- handling missing values.
 - Trimming whitespace.
 - Custom type mapping for specific columns.
 - Chunk processing for efficient handling of large files.
